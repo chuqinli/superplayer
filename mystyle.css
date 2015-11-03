@@ -1,0 +1,236 @@
+
+div#video_controls_bar{ 	
+   
+    width: 440px;
+	height: 35px;
+	background-color: #B0D0E2;
+	border-radius: 5px;
+	opacity: 0.7;
+}
+button#playpausebtn0{
+	background-image:url(pause.png);
+    position:relative;
+	border:none;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 7px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}
+button#playpausebtn0:hover{ opacity:1;}
+button#mutebtn0{
+	background-image:url(unmute.png);
+	position:relative;
+	border:none;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 7px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}
+button#mutebtn0:hover{ opacity:1;}
+span#curtimetext0{
+	position:relative;
+	top:2.5px;
+}
+span#durtimetext0{
+	position:relative;
+	top:2.5px;
+}
+span#slash0{
+	position:relative;
+	top:2.5px;
+}
+input#seekslider0{ width:180px; }
+input#volumeslider0{ width: 80px;}
+input[type='range']{
+	-webkit-appearance:  none !important;
+	background: #000;
+	height:4px;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: #FFF;
+    height:15px;
+    width:15px;
+	border-radius:100%;
+	cursor:pointer;
+}
+button#fullscreenbtn0{
+	background-image:url(full.png);
+    position:relative;
+	border:none;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 7px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}
+
+div#video_controls_bar1{ 	
+   
+    width: 440px;
+	height: 35px;
+	background-color: #B0D0E2;
+	border-radius: 5px;
+	opacity: 0.7;
+}
+button#playpausebtn1{
+	background-image:url(pause.png);
+    position:relative;
+	border:none;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 7px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}
+button#playpausebtn1:hover{ opacity:1;}
+button#mutebtn1{
+	background-image:url(unmute.png);
+	position:relative;
+	border:none;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 7px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}
+button#mutebtn1:hover{ opacity:1;}
+span#curtimetext1{
+	position:relative;
+	top:2.5px;
+}
+span#durtimetext1{
+	position:relative;
+	top:2.5px;
+}
+span#slash1{
+	position:relative;
+	top:2.5px;
+}
+input#seekslider1{ width:180px; }
+input#volumeslider1{ width: 80px;}
+input[type='range']{
+	-webkit-appearance:  none !important;
+	background: #000;
+	height:4px;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: #FFF;
+    height:15px;
+    width:15px;
+	border-radius:100%;
+	cursor:pointer;
+}
+button#cbox1{
+
+	border:1px;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 17px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}
+
+div#video_controls_bar2{ 	
+   	position: relative;
+    width: 470px;
+	height: 35px;
+	background-color: #B00000;
+	border-radius: 5px;
+	opacity: 0.7;
+	left: 300px;
+	top: 30px;
+}
+button#playbtn{
+	background-image:url(play.png);
+    position:relative;
+	border:none;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 7px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}
+button#playbtn:hover{ opacity:1;}
+button#pausebtn{
+	background-image:url(pause.png);
+    position:relative;
+	border:none;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 7px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}
+button#pausebtn:hover{ opacity:1;}
+button#mutebtn2{
+	background-image:url(unmute.png);
+	position:relative;
+	border:none;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 7px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}
+button#mutebtn2:hover{ opacity:1;}
+span#curtimetext2{
+	position:relative;
+	top:2.5px;
+}
+span#durtimetext2{
+	position:relative;
+	top:2.5px;
+}
+span#slash2{
+	position:relative;
+	top:2.5px;
+}
+input#seekslider2{ width:180px; }
+input#volumeslider2{ width: 80px;}
+input[type='range']{
+	-webkit-appearance:  none !important;
+	background: #000;
+	height:4px;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: #FFF;
+    height:15px;
+    width:15px;
+	border-radius:100%;
+	cursor:pointer;
+}
+button#fullscreenbtn2{
+	background-image:url(full.png);
+    position:relative;
+	border:none;
+	width:28px;
+	height:21px;
+	position:relative;
+	top: 7px;
+	left: 4px;
+	opacity:0.7;
+	cursor:pointer;
+}

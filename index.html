@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="popcorn-complete.min.js"></script>
+
+		<script src="player.js"></script>
+		
+		<table>
+				<tr>
+					<td><div id="video_player"></div></td>
+					<td><div id="video_player1"></div></td>
+				</tr>
+				<tr><td>Enter video1 URL</td><td>Enter video2 URL</td></tr>
+				<tr><td><input type="text" id="remoteVideoURL"></td><td><input type="text" id="remoteVideoURL1"></td></tr>
+				<tr><td><input type="submit" id="submit" value="Submit" /></td></tr>
+				<tr>
+					<td>
+						<div class="video_controls_bar" id="video_controls_bar">
+							<button class="playstop"id="playpausebtn0"></button>
+							<input id="seekslider0" type="range" min="0" max="100" value="0" step="1">
+							<span id="curtimetext0">00:00</span> / <span id="durtimetext0">00:00</span>
+							<button id="mutebtn0"></button>
+							<input id="volumeslider0" type="range" min="0" max="100" value="100" step="1">
+						</div>
+					</td>
+					<td>
+						<div class="video_controls_bar" id="video_controls_bar1">
+							<button class="playstop"id="playpausebtn1"></button>
+							<input id="seekslider1" type="range" min="0" max="100" value="0" step="1">
+							<span id="curtimetext1">00:00</span> / <span id="durtimetext1">00:00</span>
+							<button id="mutebtn1"></button>
+							<input id="volumeslider1" type="range" min="0" max="100" value="100" step="1">
+						</div>
+					</td>
+				</tr>
+				</table>
+					<div class="video_controls_bar" id="video_controls_bar2">
+						<button id="playbtn"></button>
+						<button id="pausebtn"></button>
+						<input id="seekslider2" type="range" min="0" max="100" value="0" step="1">
+						<span id="curtimetext2">00:00</span> / <span id="durtimetext2">00:00</span>
+						<button id="mutebtn2"></button>
+						<input id="volumeslider2" type="range" min="0" max="100" value="100" step="1">
+					</div>
+	</body>
+</html>
